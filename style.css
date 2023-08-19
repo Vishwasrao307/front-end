@@ -1,0 +1,289 @@
+#nav-div{
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: black;
+}
+
+.nav-items{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    display:inline-block;
+   
+}
+.nav-items:hover{
+    background-color: gray;
+   
+}
+
+#search-img{
+    width: 35px;
+    height: 30px;
+    margin-left: 600px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+#search-img:hover{
+    background-color: gray;
+}
+
+#img-cont{
+    width: 100%;
+    height: 500px;
+    text-align:center;
+    /* margin-top: 300px; */
+    background-image: url(images/ny.jpg);
+    background-size: cover;
+    /* background-color: rgba(12,1,1,0.7); */
+    margin-top: -30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cont-para{
+    font-weight: bolder;
+    color: white;
+}
+#cont-para p{
+    font-size: 20px;
+}
+#content-art{
+    width: 100%;
+
+}
+#content-art h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#content-art h3{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+
+#content-art p{
+    padding-right: 80px;
+    padding-left: 80px;
+    font-size: 30px;
+    
+}
+
+#name-img{
+    width: 100%;
+    padding-left: 200px;
+    margin-left: 50px;
+}
+
+#name-img div {
+    display:inline-block;
+    margin-left: 70px;
+    margin-right: 10px;
+    text-align: center;
+}
+.bandmember p{
+    font-size: 20px;
+
+}
+.bandmember img{
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+#tour-dates{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    /* height: 1000px; */
+}
+
+#tour-dates h1{
+    text-align: center;
+}
+#tour-dates p{
+    text-align: center;
+}
+
+#tour-months{
+    width: 1000px;
+    margin-left: 130px;
+    background-color: white;
+    color: black;
+}
+
+.tour-submonths{
+    border: 1px black;
+    display: inline-block;
+    height: 20px;
+    
+    
+}
+.tour-submonths p{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.tour-submonths span{
+    width: 90px;
+    height: 30px;
+    background-color: red;
+    margin-left: 300px; 
+    margin-top: -65px;
+    float: left;
+    font-size: 20px;
+    
+}
+#november-no{
+    /* margin-left: 800px; */
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    /* margin-top: 2px; */
+    padding-top: 5px;
+}
+
+#date-cards{
+    width: 100%;
+    height: 700px;
+}
+
+.cards{
+    display: inline-block;
+    width: 300px;
+    height: 550px;
+    margin: 70px;
+    background-color: white;
+    color: black;
+    font-size: 5px;
+}
+
+.cards img{
+    width: 300px;
+    height: 250px;
+
+}
+.cards h3{
+    color: black;
+
+}
+.cards p{
+    font-size: 10px;
+}
+
+.cards div{
+    font-size: 20px;
+}
+.cards input{
+    margin-left: 35%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px;  
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+.cards input:hover{
+    background-color: gray;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px black;
+}
+
+#Contact-div{
+    font-size: 22px;
+    display: inline-block;
+}
+#Contact-div h1{
+    margin-left: 600px;
+    /* text-align: center; */
+}
+#Contact-div #p1{
+    margin-left: 600px;
+    /* text-align: center; */
+}
+
+#Contact-info{
+    margin-left: 20px;
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+    margin-top: 20px;
+    padding: 50px;
+    
+}
+#Contact-info p
+{
+    margin-left: 50px;
+    margin-top: -34px;
+}
+
+#Contact-form
+{
+    width: 50%;
+    height: 400px;
+    margin-left: 600px;
+    margin-top: -450px;
+}
+
+#Contact-form .name-email{
+    width: 280px;
+    height: 40px;
+}
+
+#Contact-form #message{
+    width: 575px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#Contact-button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 480px;
+
+}
+
+#Contact-button:hover{
+    background-color: rgb(233, 228, 228);
+    color: black;
+    border: none
+}
+
+#map-image{
+
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+    opacity: 0.5;
+
+}
+#social-icons img{
+    width: 30px;
+    height: 30px;
+    opacity: 0.4;
+    
+}
+#social-icons{
+    margin-left: 600px;
+    margin-top: 800px;
+
+}
+
+#social-icons p{
+    font-size: 20px;
+    color: gray;
+}
+
